@@ -51,4 +51,4 @@ npm run test:cov
 ```
 # Document Api
 
-[Document](https://documenter.getpostman.com/view/22095043/UzR1JMuz)
+[https://documenter.getpostman.com/view/22095043/UzR1JMuz](https://documenter.getpostman.com/view/22095043/UzR1JMuz)
