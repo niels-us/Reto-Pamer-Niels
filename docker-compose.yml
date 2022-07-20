@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  database:
+    image: postgres:13
+    container_name: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=niels
+      - POSTGRES_PASSWORD=niels
+      - POSTGRES_DB=mydb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgresql-volume:/var/lib/postgresql/data
+
+volumes: 
+  postgresql-volume:
+    external: true
